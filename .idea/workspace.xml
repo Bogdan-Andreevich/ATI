@@ -1,23 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f82b629f-bc9e-45da-90f6-c23881a9dc54" name="Changes" comment="" />
+    <list default="true" id="f82b629f-bc9e-45da-90f6-c23881a9dc54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientSide/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientSide/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerSide/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ServerSide/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ServerSide/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ServerSide" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" listening_started="true" show_user_defined_constants="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="0.0.0.0" id="634aeded-e0a3-48f0-8bf2-f2792cfe7227" name="PHPSTORM" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html" />
+          <mapping local-root="$PROJECT_DIR$/ServerSide/vendor/laravel/framework/src/Illuminate/Foundation/resources" remote-root="/var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/resources" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="\\wsl$\Ubuntu\projects\ATI\ServerSide\public" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="sail-8.1/app:latest">
     <include_path>
       <path value="$PROJECT_DIR$/ServerSide/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/ServerSide/vendor/phar-io/version" />
@@ -127,6 +234,11 @@
       <path value="$PROJECT_DIR$/ServerSide/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/ServerSide/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/ServerSide/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/ServerSide/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/ServerSide/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/ServerSide/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/ServerSide/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/ServerSide/vendor/tymon/jwt-auth" />
     </include_path>
   </component>
   <component name="ProjectId" id="2GzOvf7qXgxtdmkouACmjYUAS8d" />
@@ -139,22 +251,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/projects/ATI/API2",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "Docker",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "Docker",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/bogdan/projects/ATI",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.php.debug.servers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\projects\ATI\ServerSide\resources\views" />
       <recent name="\\wsl$\Ubuntu\projects\ATI\ServerSide" />
       <recent name="\\wsl$\Ubuntu\projects\ATI" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/ServerSide/composer.json" />
+    <configuration name="Docker" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="Docker" session_id="PHPSTORM">
       <method v="2" />
     </configuration>
   </component>
@@ -172,6 +287,18 @@
       <workItem from="1667395124976" duration="2232000" />
       <workItem from="1667397391084" duration="42000" />
       <workItem from="1667397435794" duration="6462000" />
+      <workItem from="1667409408051" duration="408000" />
+      <workItem from="1667409824290" duration="3312000" />
+      <workItem from="1667485555186" duration="10965000" />
+      <workItem from="1667664347712" duration="3020000" />
+      <workItem from="1667667503398" duration="5153000" />
+      <workItem from="1667673174409" duration="84000" />
+      <workItem from="1667738682132" duration="933000" />
+      <workItem from="1667740307911" duration="2782000" />
+      <workItem from="1667743132054" duration="603000" />
+      <workItem from="1667743760668" duration="10034000" />
+      <workItem from="1667851346298" duration="41000" />
+      <workItem from="1668013576552" duration="279000" />
     </task>
     <servers />
   </component>
@@ -188,5 +315,76 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/api.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/web.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/web.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/routes/web.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ServerSide/app/Http/Controllers/AuthController.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
