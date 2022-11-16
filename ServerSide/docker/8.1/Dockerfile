@@ -13,7 +13,6 @@ ENV TZ=UTC
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-
 RUN apt-get update \
     && apt-get install -y gnupg gosu curl ca-certificates zip unzip git supervisor sqlite3 libcap2-bin libpng-dev python2 \
     && mkdir -p ~/.gnupg \
@@ -32,12 +31,8 @@ RUN apt-get update \
        php8.1-intl php8.1-readline \
        php8.1-ldap \
        php8.1-msgpack php8.1-igbinary php8.1-redis php8.1-swoole \
-       php8.1-memcached php8.1-pcov php8.1-xdebug
-
-RUN apt-get install -y php-xdebug
-COPY ext-xdebug.ini /etc/php/8.1/cli/conf.d/ext-xdebug.ini
-
-RUN php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
+       php8.1-memcached php8.1-pcov php8.1-xdebug \
+    && php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
     && curl -sLS https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
     && apt-get install -y nodejs \
     && npm install -g npm \
